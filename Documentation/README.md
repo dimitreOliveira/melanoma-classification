@@ -1,16 +1,16 @@
-# {SIIM-ISIC Melanoma Classification} - Documentation
+# SIIM-ISIC Melanoma Classification - Documentation
 
 ## Relevant content:
-- []()
+- [-]()
 
 ## GitHub:
-- []()
+- [-]()
 
 ## Papers:
-- []()
+- [-]()
 
 ## Videos:
-- []()
+- [-]()
 
 ## Kernels:
 - [How To Create TFRecords](https://www.kaggle.com/cdeotte/how-to-create-tfrecords)
