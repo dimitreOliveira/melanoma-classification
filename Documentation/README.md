@@ -1,4 +1,4 @@
-# {Competition Name} - Documentation
+# {SIIM-ISIC Melanoma Classification} - Documentation
 
 ## Relevant content:
 - [Content 1]()
@@ -16,7 +16,9 @@
 - [Kernel 1]()
 
 ## Discussions:
-- [Discussion 1]()
+- [TFRecords 768x768, 512x512, 384x384 With Meta Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155579)
+- [CNN Input Size Explained](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/160147)
+- [Discussion]()
  
 ## Insights:
 - ### Positive Insights
