@@ -1,10 +1,10 @@
 # SIIM-ISIC Melanoma Classification - Documentation
 
 ## Relevant content:
-- [-]()
+- [tf.image](https://www.tensorflow.org/api_docs/python/tf/image)
 
 ## GitHub:
-- [-]()
+- [Classification models](https://github.com/qubvel/classification_models)
 
 ## Papers:
 - [-]()
