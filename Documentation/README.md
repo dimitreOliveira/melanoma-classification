@@ -30,6 +30,9 @@
 - [Reaching 0.9 with ResNet18 and 256x256 images](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155668)
 - [Advanced hair augmentation](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/159176)
 - [Shades of Gray prepossessed data (both JPEG's and tfrecords)](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/161719)
+- [understanding "Ugly Duckling Concept"](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155348)
+- [Microscope augmentation](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/159476)
+- [list of all mixup variant](https://www.kaggle.com/c/bengaliai-cv19/discussion/132492)
 - []()
  
 ## Insights:
