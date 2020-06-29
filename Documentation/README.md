@@ -3,9 +3,11 @@
 ## Relevant content:
 - [tf.image](https://www.tensorflow.org/api_docs/python/tf/image)
 - [TF Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
+- [Roc-star : An objective function for ROC-AUC that actually works](https://github.com/iridiumblue/roc-star/blob/master/README.md)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
+- [Tensorflow loss_layers](https://github.com/tensorflow/models/blob/master/research/global_objectives/loss_layers.py)
 
 ## Papers:
 - [-]()
@@ -21,6 +23,7 @@
 
 ## Discussions:
 - [TFRecords 768x768, 512x512, 384x384 With Meta Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155579)
+- [TFRecords 512x512 External Data, Train, Test, with Meta](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/156245)
 - [CNN Input Size Explained](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/160147)
 - [Use Both Image Data and Tabular Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155251)
 - [dealing with fluctuating validation AUC in a single fold](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155201)
