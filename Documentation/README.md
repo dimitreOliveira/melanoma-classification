@@ -10,7 +10,10 @@
 - [Tensorflow loss_layers](https://github.com/tensorflow/models/blob/master/research/global_objectives/loss_layers.py)
 
 ## Papers:
-- [-]()
+- [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
+- [mixup: BEYOND EMPIRICAL RISK MINIMIZATION](https://arxiv.org/pdf/1710.09412.pdf)
+- [CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/pdf/1905.04899.pdf)
+- [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/pdf/1708.04552.pdf)
 
 ## Videos:
 - [-]()
@@ -32,9 +35,9 @@
 - [How To - CutMix and MixUp on GPU/TPU](https://www.kaggle.com/c/flower-classification-with-tpus/discussion/132935)
 - [Reaching 0.9 with ResNet18 and 256x256 images](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155668)
 - [Advanced hair augmentation](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/159176)
+- [Microscope augmentation](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/159476)
 - [Shades of Gray prepossessed data (both JPEG's and tfrecords)](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/161719)
 - [understanding "Ugly Duckling Concept"](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155348)
-- [Microscope augmentation](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/159476)
 - [list of all mixup variant](https://www.kaggle.com/c/bengaliai-cv19/discussion/132492)
 - []()
  
