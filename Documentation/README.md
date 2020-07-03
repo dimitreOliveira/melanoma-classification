@@ -16,13 +16,17 @@
 - [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/pdf/1708.04552.pdf)
 
 ## Videos:
-- [-]()
+- [Deep Learning Podcast #2 | Edward Peake | Deep Learning in Medical Imaging](https://www.youtube.com/watch?v=Z-SePjfKAYM)
+- [Skin Cancer Classification with Deep Learning](https://www.youtube.com/watch?v=GkTgSgjJuW8)
+- [Skin Cancer Image Classification (TensorFlow Dev Summit 2017)](https://www.youtube.com/watch?v=toK1OSLep3s)
+- []()
 
 ## Kernels:
 - [How To Create TFRecords](https://www.kaggle.com/cdeotte/how-to-create-tfrecords)
 - [Image And Tabular Data - [0.915]](https://www.kaggle.com/cdeotte/image-and-tabular-data-0-915)
 - [CutMix and MixUp on GPU/TPU](https://www.kaggle.com/cdeotte/cutmix-and-mixup-on-gpu-tpu)
 - [Rotation Augmentation GPU/TPU - [0.96+]](https://www.kaggle.com/cdeotte/rotation-augmentation-gpu-tpu-0-96)
+- [Incredible TPUs - finetune EffNetB0-B6 at once](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once)
 
 ## Discussions:
 - [TFRecords 768x768, 512x512, 384x384 With Meta Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155579)
@@ -43,4 +47,7 @@
  
 ## Insights:
 - ### Positive Insights
+  - Between the tabular features it seems that only `age` and `sex` may be of valuabe information.
+  
 - ### Negative Insights
+  - Most of the values for the `diagnosis` feature is `unknown` it may leave this features useless.
