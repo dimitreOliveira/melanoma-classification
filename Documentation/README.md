@@ -2,6 +2,7 @@
 
 ## Relevant content:
 - [tf.image](https://www.tensorflow.org/api_docs/python/tf/image)
+- [tfa.image](https://www.tensorflow.org/addons/api_docs/python/tfa/image)
 - [TF Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
 - [Roc-star : An objective function for ROC-AUC that actually works](https://github.com/iridiumblue/roc-star/blob/master/README.md)
 
