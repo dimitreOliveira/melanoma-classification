@@ -29,6 +29,7 @@
 - [CutMix and MixUp on GPU/TPU](https://www.kaggle.com/cdeotte/cutmix-and-mixup-on-gpu-tpu)
 - [Rotation Augmentation GPU/TPU - [0.96+]](https://www.kaggle.com/cdeotte/rotation-augmentation-gpu-tpu-0-96)
 - [Incredible TPUs - finetune EffNetB0-B6 at once](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once)
+- [Don't turn into a Smoothie after the Shake-Up](https://www.kaggle.com/allunia/don-t-turn-into-a-smoothie-after-the-shake-up/notebook)
 
 ## Discussions:
 - [TFRecords 768x768, 512x512, 384x384 With Meta Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155579)
@@ -46,7 +47,6 @@
 - [understanding "Ugly Duckling Concept"](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155348)
 - [list of all mixup variant](https://www.kaggle.com/c/bengaliai-cv19/discussion/132492)
 - [TFRecords 768x768, 384x384, 256x256 External Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/163227)
-- []()
 - []()
 
 ## Datasets:
