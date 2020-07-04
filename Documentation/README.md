@@ -20,6 +20,7 @@
 - [Deep Learning Podcast #2 | Edward Peake | Deep Learning in Medical Imaging](https://www.youtube.com/watch?v=Z-SePjfKAYM)
 - [Skin Cancer Classification with Deep Learning](https://www.youtube.com/watch?v=GkTgSgjJuW8)
 - [Skin Cancer Image Classification (TensorFlow Dev Summit 2017)](https://www.youtube.com/watch?v=toK1OSLep3s)
+- [Big Self-Supervised Models are Strong Semi-Supervised Learners (Paper Explained)](https://www.youtube.com/watch?v=2lkUNDZld-4)
 - []()
 
 ## Kernels:
@@ -44,7 +45,19 @@
 - [Shades of Gray prepossessed data (both JPEG's and tfrecords)](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/161719)
 - [understanding "Ugly Duckling Concept"](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155348)
 - [list of all mixup variant](https://www.kaggle.com/c/bengaliai-cv19/discussion/132492)
+- [TFRecords 768x768, 384x384, 256x256 External Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/163227)
 - []()
+- []()
+
+## Datasets:
+- [Melanoma TFRecords 256x256](https://www.kaggle.com/cdeotte/melanoma-256x256)
+- [Melanoma TFRecords 384x384](https://www.kaggle.com/cdeotte/melanoma-384x384)
+- [Melanoma TFRecords 512x512](https://www.kaggle.com/cdeotte/melanoma-512x512)
+- [Melanoma TFRecords 768x768](https://www.kaggle.com/cdeotte/melanoma-768x768)
+- [256x256 Melanoma TFRecords 70k Images](https://www.kaggle.com/tt195361/256x256-melanoma-tfrecords-70k-images)
+- [384x384 Melanoma TFRecords 70k Images](https://www.kaggle.com/tt195361/384x384-melanoma-tfrecords-70k-images)
+- [512x512 Melanoma TFRecords 70k Images](https://www.kaggle.com/cdeotte/512x512-melanoma-tfrecords-70k-images)
+- [768x768 Melanoma TFRecords 70k Images](https://www.kaggle.com/tt195361/768x768-melanoma-tfrecords-70k-images)
  
 ## Insights:
 - ### Positive Insights
