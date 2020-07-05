@@ -24,7 +24,6 @@
 | 12-Melanoma-3Fold ResNet18 class_weights_20 | 0.768815 | 0.720954 | 0.834 | ??? |
 | 13-Melanoma-3Fold ResNet18 rotations | 0.980640 | 0.861380 | 0.888 | ??? |
 | 14-Melanoma-3Fold ResNet18 45_rotations | 0.966637 | 0.819958 | 0.864 | ??? |
-
 | 15 | 15-Melanoma-3Fold ResNet18 crop | 0.916702 | 0.858124 | 0.891 | ??? |
 | 16-Melanoma-5Fold ResNet18 crop | 0.950231 | 0.880035 | 0.886 | ??? |
 | 17-Melanoma-5Fold ResNet18 crop bs_256 | 0.978396 | 0.852653 | 0.889 | ??? |
@@ -33,6 +32,10 @@
 | 20-Melanoma-5Fold ResNet152 imagenet | 0.967132 | 0.846850 | 0.900 | ??? |
 | 21-Melanoma-5Fold ResNet152 imagenet11k | 0.950156 | 0.880889 | 0.914 | ??? |
 | 22-Melanoma-5Fold ResNet152 imagenet11k 384x384 | 0.977126 | 0.888166 | 0.911 | ??? |
-| 23 | 000 | 000 | 000 | ??? |
+| 23-Melanoma-3Fold ResNet152 imagenet11k 512x512 | 000 | 000 | 0.892 | ??? |
 | 24 | 000 | 000 | 000 | ??? |
 | 25-Melanoma-5Fold ResNet18 | 0.906409 | 0.844973 | 0.892 | ??? |
+| 26-Melanoma-5Fold ResNet18 AUC | 0.896782 | 0.858673 | 0.886 | ??? |
+| 27-Melanoma-5Fold ResNet18 RAdam | 0.926222 | 0.866615 | 0.889 | ??? |
+| 28-Melanoma-5Fold ResNet18 Exponential decay | 0.962505 | 0.872188 | 0.892 | ??? |
+| 29-Melanoma-5Fold ResNet18 Cosine decay | 0.914570 | 0.857385 | 0.890 | ??? |
