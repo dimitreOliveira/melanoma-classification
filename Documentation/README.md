@@ -5,23 +5,26 @@
 - [tfa.image](https://www.tensorflow.org/addons/api_docs/python/tfa/image)
 - [TF Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
 - [Roc-star : An objective function for ROC-AUC that actually works](https://github.com/iridiumblue/roc-star/blob/master/README.md)
+- [Cyclical learning rates with Tensorflow Implementation](https://mancap314.github.io/cyclical-learning-rates-with-tensorflow-implementation.html)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
 - [Tensorflow loss_layers](https://github.com/tensorflow/models/blob/master/research/global_objectives/loss_layers.py)
+- [keras-one-cycle](https://github.com/titu1994/keras-one-cycle)
 
 ## Papers:
 - [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
 - [mixup: BEYOND EMPIRICAL RISK MINIMIZATION](https://arxiv.org/pdf/1710.09412.pdf)
 - [CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/pdf/1905.04899.pdf)
 - [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/pdf/1708.04552.pdf)
+- [Big Transfer (BiT):General Visual Representation Learning](https://arxiv.org/pdf/1912.11370.pdf)
 
 ## Videos:
 - [Deep Learning Podcast #2 | Edward Peake | Deep Learning in Medical Imaging](https://www.youtube.com/watch?v=Z-SePjfKAYM)
 - [Skin Cancer Classification with Deep Learning](https://www.youtube.com/watch?v=GkTgSgjJuW8)
 - [Skin Cancer Image Classification (TensorFlow Dev Summit 2017)](https://www.youtube.com/watch?v=toK1OSLep3s)
 - [Big Self-Supervised Models are Strong Semi-Supervised Learners (Paper Explained)](https://www.youtube.com/watch?v=2lkUNDZld-4)
-- []()
+- [Big Transfer (BiT): General Visual Representation Learning (Paper Explained)](https://www.youtube.com/watch?v=k1GOF2jmX7c)
 
 ## Kernels:
 - [How To Create TFRecords](https://www.kaggle.com/cdeotte/how-to-create-tfrecords)
