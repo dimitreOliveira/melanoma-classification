@@ -47,7 +47,7 @@
 - [understanding "Ugly Duckling Concept"](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155348)
 - [list of all mixup variant](https://www.kaggle.com/c/bengaliai-cv19/discussion/132492)
 - [TFRecords 768x768, 384x384, 256x256 External Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/163227)
-- []()
+- [1st place solution summary](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/108065)
 
 ## Datasets:
 - [Melanoma TFRecords 256x256](https://www.kaggle.com/cdeotte/melanoma-256x256)
