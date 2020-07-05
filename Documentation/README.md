@@ -25,6 +25,7 @@
 - [Skin Cancer Image Classification (TensorFlow Dev Summit 2017)](https://www.youtube.com/watch?v=toK1OSLep3s)
 - [Big Self-Supervised Models are Strong Semi-Supervised Learners (Paper Explained)](https://www.youtube.com/watch?v=2lkUNDZld-4)
 - [Big Transfer (BiT): General Visual Representation Learning (Paper Explained)](https://www.youtube.com/watch?v=k1GOF2jmX7c)
+- [Supervised Contrastive Learning](https://www.youtube.com/watch?v=MpdbFLXOOIw)
 
 ## Kernels:
 - [How To Create TFRecords](https://www.kaggle.com/cdeotte/how-to-create-tfrecords)
