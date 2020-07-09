@@ -33,7 +33,7 @@
 | 21-Melanoma-5Fold ResNet152 imagenet11k | 0.950156 | 0.880889 | 0.914 | ??? |
 | 22-Melanoma-5Fold ResNet152 imagenet11k 384x384 | 0.977126 | 0.888166 | 0.911 | ??? |
 | 23-Melanoma-3Fold ResNet152 imagenet11k 512x512 | 000 | 000 | 0.892 | ??? |
-| 24-Melanoma-5Fold ResNet152 imagenet11k 768x768 | 0.927178 | 0.881075 | 0.869 | ??? |
+| 24-Melanoma-1Fold ResNet152 imagenet11k 768x768 | 0.927178 | 0.881075 | 0.869 | ??? |
 | 25-Melanoma-5Fold ResNet18 | 0.906409 | 0.844973 | 0.892 | ??? |
 | 26-Melanoma-5Fold ResNet18 AUC | 0.896782 | 0.858673 | 0.886 | ??? |
 | 27-Melanoma-5Fold ResNet18 RAdam | 0.926222 | 0.866615 | 0.889 | ??? |
@@ -41,3 +41,23 @@
 | 29-Melanoma-5Fold ResNet18 Cosine decay | 0.914570 | 0.857385 | 0.890 | ??? |
 | 30-Melanoma-5Fold ResNet18 Cosine decay WR SWA | 0.925545 | 0.870840 | 0.892 | ??? |
 | 31-Melanoma-5Fold ResNet18 Cosine decay WR | 0.946657 | 0.898607 | 0.889 | ??? |
+| 32-Melanoma-5Fold ResNet18 Cosine decay WR2 | 0.931988 | 0.854173 | 0.877 | ??? |
+| 33-melanoma-5fold-resnet152 imagenet11k | 0.974451 | 0.877713 | 0.899 | ??? |
+| 34-melanoma-5fold-resnet152 imagenet11k class_weights | 0.724695 | 0.722104 | 0.831 | ??? |
+| 35-Melanoma-5Fold ResNet18 step decay 05 | 0.992601 | 0.831931 | 0.866 | ??? |
+| 36-melanoma-5fold-resnet152 imagenet11k external data | 0.935322 | 0.940607 | 0.916 | ??? |
+| 37-melanoma-5fold-resnet152 external data bs_512 | 0.948843 | 0.947044 | 0.860 | ??? |
+| 38-melanoma-3fold-resnet152 external data bs_512 | 0.996839 | 0.765615 | 0.818 | ??? |
+| 39-melanoma-3fold-EfficientNetB3 70k TTA | 0.997282 | 0.839818 | 0.885 | ??? |
+| 40-melanoma-3fold-EfficientNetB3 16-sample dropout | 0.985339 | 0.896662 | 0.901 | ??? |
+| 41-melanoma-3fold-EfficientNetB0 16-sample dropout | 0.978523 | 0.893157 | 0.928 | ??? |
+| 42-melanoma-3fold-EfficientNetB0 cosine decay wr swa 16-sample | 0.982849 | 0.879591 | 0.929 | ??? |
+| 43-melanoma-3fold-EfficientNetB0 2020 cosine wr swa 16-sample | 0.975377 | 0.883311 | 0.907 | ??? |
+| 44-melanoma-3fold-EfficientNetB6 16-samples dropout | 0.973873 | 0.903858 | 0.913 | ??? |
+| 45-melanoma-3fold-EfficientNetB0 16-samples dropout | 0.979255 | 0.879807 | 0.908 | ??? |
+| 46-melanoma-3fold-EfficientNetB0 spatial dropout | 0.983010 | 0.859038 | 0.894 | ??? |
+| 47-melanoma-3fold-EfficientNetB0 advanced augmentation | 0.981037 | 0.873423 | 0.926 | ??? |
+| 48-melanoma-3fold-EfficientNetB0 resize 224x224 | 0.981341 | 0.873970 | 0.904 | ??? |
+| 49-melanoma-3fold-EfficientNetB6 public | 0.960757 | 0.881337 | 000 | ??? |
+| 50-melanoma-3fold-EfficientNetB6 custom aug | 0.970015 | 0.893900 | 000 | ??? |
+| 51-melanoma-3fold-EfficientNetB6 external data | 0.981421 | 0.893983 | 000 | ??? |
