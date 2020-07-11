@@ -61,3 +61,13 @@
 | 49-melanoma-3fold-EfficientNetB6 public | 0.960757 | 0.881337 | 000 | ??? |
 | 50-melanoma-3fold-EfficientNetB6 custom aug | 0.970015 | 0.893900 | 000 | ??? |
 | 51-melanoma-3fold-EfficientNetB6 external data | 0.981421 | 0.893983 | 000 | ??? |
+| 52-melanoma-3fold-EfficientNetB6 bs_512 | 0.983456 | 0.873968 | 000 | ??? |
+| 53-melanoma-5fold-EfficientNetB0 noisy-student | 0.972530 | 0.870910 | 0.921 | ??? |
+| 54-melanoma-5fold-EfficientNetB0 bs_64 | 0.965886 | 0.858830 | 000 | ??? |
+| 55-melanoma-5fold-EfficientNetB0 bias initialization | 0.965621 | 0.875473 | 0.921 | ??? |
+| 56-melanoma-5fold-EfficientNetB0 bias init bs_512 | 0.986044 | 0.861017 | 000 | ??? |
+| 57-melanoma-5fold-EfficientNetB0 class_weights AUC monitor | 0.982143 | 0.907337 | 0.917 | ??? |
+| 58-melanoma-5fold-EfficientNetB0 no smoothing | 0.985234 | 0.910786 | 0.917 | ??? |
+| 59-melanoma-5fold-EfficientNetB6 | 0.961469 | 0.905375 | 000 | ??? |
+| 60-melanoma-5fold-EfficientNetB7 | 0.954760 | 0.899402 | 000 | ??? |
+| 61-melanoma-5fold-EfficientNetB0 lbl smoothing 02 | 0.981862 | 0.905961 | 000 | ??? |
