@@ -6,6 +6,8 @@
 - [TF Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
 - [Roc-star : An objective function for ROC-AUC that actually works](https://github.com/iridiumblue/roc-star/blob/master/README.md)
 - [Cyclical learning rates with Tensorflow Implementation](https://mancap314.github.io/cyclical-learning-rates-with-tensorflow-implementation.html)
+- [Classification on imbalanced data](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data)
+- [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/#2-set-up-the-end-to-end-trainingevaluation-skeleton--get-dumb-baselines)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
