@@ -68,6 +68,12 @@
 | 56-melanoma-5fold-EfficientNetB0 bias init bs_512 | 0.986044 | 0.861017 | 000 | ??? |
 | 57-melanoma-5fold-EfficientNetB0 class_weights AUC monitor | 0.982143 | 0.907337 | 0.917 | ??? |
 | 58-melanoma-5fold-EfficientNetB0 no smoothing | 0.985234 | 0.910786 | 0.917 | ??? |
-| 59-melanoma-5fold-EfficientNetB6 | 0.961469 | 0.905375 | 000 | ??? |
+| 59-melanoma-5fold-EfficientNetB6 | 0.961469 | 0.905375 | 0.910 | ??? |
 | 60-melanoma-5fold-EfficientNetB7 | 0.954760 | 0.899402 | 000 | ??? |
 | 61-melanoma-5fold-EfficientNetB0 lbl smoothing 02 | 0.981862 | 0.905961 | 000 | ??? |
+| 62-melanoma-5fold-InceptionResNetV2 | 0.967108 | 0.894248 | 000 | ??? |
+| 63-melanoma-5fold-ResNet18 RAdam | 0.974887 | 0.898184 | 000 | ??? |
+| 64-melanoma-5fold-SEResNet18 RAdam | 0.969020 | 0.894261 | 0.897 | ??? |
+| 65-melanoma-5fold-EfficientNetB0 RAdam | 0.979056 | 0.904889 | 0.921 | ??? |
+| 66-melanoma-5fold-EfficientNetB0 augmentation refator | 0.969065 | 0.906764 | 0.920 | ??? |
+| 67-melanoma-5fold-EfficientNetB0 cutout | 0.963932 | 0.901653 | 0.919 | ??? |
