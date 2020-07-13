@@ -77,3 +77,10 @@
 | 65-melanoma-5fold-EfficientNetB0 RAdam | 0.979056 | 0.904889 | 0.921 | ??? |
 | 66-melanoma-5fold-EfficientNetB0 augmentation refator | 0.969065 | 0.906764 | 0.920 | ??? |
 | 67-melanoma-5fold-EfficientNetB0 cutout | 0.963932 | 0.901653 | 0.919 | ??? |
+| 68-melanoma-5fold-SEResNet18 RAdam cutout | 0.949809 | 0.893800 | 000 | ??? |
+| 69-melanoma-5fold-EfficientNetB6 256x256 | 0.961562 | 0.888757 | 000 | ??? |
+| 70-melanoma-5fold-EfficientNetB6 384x384 | 0.922855 | 0.890681 | 000 | ??? |
+| 71-melanoma-5fold-EfficientNetB6 512x512 | 0.984935 | 0.889693 | 000 | ??? |
+| 72-melanoma-1fold-EfficientNetB6 256x256 | 0.941793 | 0.882181 | 000 | ??? |
+| 73-melanoma-1fold-EfficientNetB6 step decay | 0.918486 | 0.875922 | 0.901 | ??? |
+| 74-melanoma-1fold-EfficientNetB6 imagenet | 0.985203 | 0.866455 | 000 | ??? |
