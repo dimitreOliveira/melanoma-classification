@@ -84,3 +84,7 @@
 | 72-melanoma-1fold-EfficientNetB6 256x256 | 0.941793 | 0.882181 | 000 | ??? |
 | 73-melanoma-1fold-EfficientNetB6 step decay | 0.918486 | 0.875922 | 0.901 | ??? |
 | 74-melanoma-1fold-EfficientNetB6 imagenet | 0.985203 | 0.866455 | 000 | ??? |
+| 75-melanoma-1fold-EfficientNetB6 384x384 public | 0.920580 | 0.888131 | 0.907 | ??? |
+| 76-melanoma-1fold-EfficientNetB6 384x384 light augmentation | 0.956563 | 0.902519 | 0.895 | ??? |
+| 77-melanoma-1fold-EfficientNetB6 384x384 medium augmentation | 0.944009 | 0.887833 | 000 | ??? |
+| 78-melanoma-1fold-EfficientNetB6 384x384 heavy augmentation | 0.921409 | 0.879210 | 000 | ??? |
