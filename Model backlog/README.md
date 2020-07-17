@@ -88,3 +88,8 @@
 | 76-melanoma-1fold-EfficientNetB6 384x384 light augmentation | 0.956563 | 0.902519 | 0.895 | ??? |
 | 77-melanoma-1fold-EfficientNetB6 384x384 medium augmentation | 0.944009 | 0.887833 | 000 | ??? |
 | 78-melanoma-1fold-EfficientNetB6 384x384 heavy augmentation | 0.921409 | 0.879210 | 000 | ??? |
+| 79-melanoma-5fold-EfficientNetB6 384x384 public | 0.914253 | 0.868182 | 0.9219 | ??? |
+| 80-melanoma-5fold-EfficientNetB6 384x384 light augmentation | 0.950163 | 0.895704 | 000 | ??? |
+| 81-melanoma-5fold-EfficientNetB6 384x384 medium augmentation | 0.941243 | 0.892399 | 0.9131 | ??? |
+| 82-melanoma-1fold-EfficientNetB6 384x384 improved augmentation | 0.934016 | 0.905199 | 000 | ??? |
+| 83-melanoma-1fold-EfficientNetB4 384x384 improved aug | 0.943513 | 0.908020 | 000 | ??? |
