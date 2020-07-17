@@ -93,3 +93,6 @@
 | 81-melanoma-5fold-EfficientNetB6 384x384 medium augmentation | 0.941243 | 0.892399 | 0.9131 | ??? |
 | 82-melanoma-1fold-EfficientNetB6 384x384 improved augmentation | 0.934016 | 0.905199 | 000 | ??? |
 | 83-melanoma-1fold-EfficientNetB4 384x384 improved aug | 0.943513 | 0.908020 | 000 | ??? |
+| 84-melanoma-5fold-EfficientNetB6 fixed | 000 | 0.903 | 0.9359 | ??? |
+| 85-melanoma-5fold-EfficientNetB6 fixed | 000 | 0.909 | 0.9324 | ??? |
+| 86-melanoma-5fold-EfficientNetB4 384 | 000 | 0.902 | 0.9282 | ??? |
