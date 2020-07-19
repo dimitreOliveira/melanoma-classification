@@ -96,3 +96,6 @@
 | 84-melanoma-5fold-EfficientNetB6 fixed | 000 | 0.903 | 0.9359 | ??? |
 | 85-melanoma-5fold-EfficientNetB6 fixed | 000 | 0.909 | 0.9324 | ??? |
 | 86-melanoma-5fold-EfficientNetB4 384 | 000 | 0.902 | 0.9282 | ??? |
+| 87-melanoma-5fold-EfficientNetB6 RAdam 2xTTA | 000 | 0.896 | 0.9365 | ??? |
+| 88-melanoma-5fold-EfficientNetB6 Adam 2xTTA | 000 | 0.902 | 0.9322 | ??? |
+| 89-melanoma-5fold-EfficientNetB6 step decay basic aug | 000 | 0.908 | 0.9324 | ??? |
