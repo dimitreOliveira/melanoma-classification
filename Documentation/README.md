@@ -55,6 +55,9 @@
 - [TFRecords 768x768, 384x384, 256x256 External Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/163227)
 - [1st place solution summary](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/108065)
 - [For AUC Metric, Ensemble using Power Averaging](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/165653)
+- [Data t-sne plot](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/167551#932485)
+- [Data t-sne plot](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/168028)
+- [Data UMAP plot](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/168028#937000)
 
 ## Datasets:
 - [Melanoma TFRecords 256x256](https://www.kaggle.com/cdeotte/melanoma-256x256)
