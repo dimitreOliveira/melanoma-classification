@@ -8,6 +8,7 @@
 - [Cyclical learning rates with Tensorflow Implementation](https://mancap314.github.io/cyclical-learning-rates-with-tensorflow-implementation.html)
 - [Classification on imbalanced data](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data)
 - [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/#2-set-up-the-end-to-end-trainingevaluation-skeleton--get-dumb-baselines)
+- [Big Transfer Tensorflow Hub](https://tfhub.dev/google/collections/bit/1)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
