@@ -99,3 +99,18 @@
 | 87-melanoma-5fold-EfficientNetB6 RAdam 2xTTA | 000 | 0.896 | 0.9365 | ??? |
 | 88-melanoma-5fold-EfficientNetB6 Adam 2xTTA | 000 | 0.902 | 0.9322 | ??? |
 | 89-melanoma-5fold-EfficientNetB6 step decay basic aug | 000 | 0.908 | 0.9324 | ??? |
+| 90-melanoma-5fold-EfficientNetB6 256x256 | 000 | 0.892 | 0.9291 | ??? |
+| 91-melanoma-5fold-EfficientNetB6 256x256 bias | 000 | 0.898 | 0.9229 | ??? |
+| 92-melanoma-5fold-EfficientNetB6 256x256 | 000 | 0.887 | 0.9342 | ??? |
+| 93-melanoma-5fold-EfficientNetB6 256x256 | 000 | 0.886 | 0.9403 | ??? |
+| 94-melanoma-5fold-EfficientNetB6 256 improved aug | 000 | 0.878 | 0.9281 | ??? |
+| 95-melanoma-5fold-EfficientNetB6 256 improved aug2 | 000 | 0.896 | 0.9275 | ??? |
+| 96-melanoma-5fold-EfficientNetB6 256 improved aug3 | 000 | 0.912 | 0.9312 | ??? |
+| 97-melanoma-5fold-EfficientNetB6 256 improved aug4 | 000 | 0.904 | 0.9310 | ??? |
+| 98-melanoma-5fold-EfficientNetB4 256 | 000 | 0.897 | 0.9334 | ??? |
+| 99-melanoma-5fold-EfficientNetB5 256 | 000 | 0.905 | 0.9217 | ??? |
+| 100-melanoma-5fold-EfficientNetB6 256 | 000 | 0.906 | 0.9305 | ??? |
+| 101 | 000 | 000 | 000 | ??? |
+| 102-melanoma-5fold-EfficientNetB4 384 | 000 | 0.888 | 0.9303 | ??? |
+| 103-melanoma-5fold-EfficientNetB4 384 | 000 | 0.898 | 0.9258 | ??? |
+| 104-melanoma-5fold-EfficientNetB4 384 random | 000 | 0.891 | 0.9307 | ??? |
