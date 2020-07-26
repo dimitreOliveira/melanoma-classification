@@ -107,10 +107,20 @@
 | 95-melanoma-5fold-EfficientNetB6 256 improved aug2 | 000 | 0.896 | 0.9275 | ??? |
 | 96-melanoma-5fold-EfficientNetB6 256 improved aug3 | 000 | 0.912 | 0.9312 | ??? |
 | 97-melanoma-5fold-EfficientNetB6 256 improved aug4 | 000 | 0.904 | 0.9310 | ??? |
-| 98-melanoma-5fold-EfficientNetB4 256 | 000 | 0.897 | 0.9334 | ??? |
-| 99-melanoma-5fold-EfficientNetB5 256 | 000 | 0.905 | 0.9217 | ??? |
-| 100-melanoma-5fold-EfficientNetB6 256 | 000 | 0.906 | 0.9305 | ??? |
-| 101 | 000 | 000 | 000 | ??? |
-| 102-melanoma-5fold-EfficientNetB4 384 | 000 | 0.888 | 0.9303 | ??? |
-| 103-melanoma-5fold-EfficientNetB4 384 | 000 | 0.898 | 0.9258 | ??? |
-| 104-melanoma-5fold-EfficientNetB4 384 random | 000 | 0.891 | 0.9307 | ??? |
+| 98-melanoma-5fold-EfficientNetB4 256 | ??? | 0.897 | 0.9334 | ??? |
+| 99-melanoma-5fold-EfficientNetB5 256 | ??? | 0.905 | 0.9217 | ??? |
+| 100-melanoma-5fold-EfficientNetB6 256 | ??? | 0.906 | 0.9305 | ??? |
+| 101-melanoma-5fold-EfficientNetB6 256 imp aug5 | ??? | 0.896 | 0.9330 | ??? |
+| 102-melanoma-5fold-EfficientNetB4 384 | ??? | 0.888 | 0.9303 | ??? |
+| 103-melanoma-5fold-EfficientNetB4 384 | ??? | 0.898 | 0.9258 | ??? |
+| 104-melanoma-5fold-EfficientNetB4 384 random | ??? | 0.891 | 0.9307 | ??? |
+| 105-melanoma-5fold-EfficientNetB6 256 class weights | ??? | 0.914 | 0.9296 | ??? |
+| 106-melanoma-5fold-EfficientNetB6 256 class weights v2 | ??? | 0.913 | 0.9321 | ??? |
+| 107-melanoma-5fold-EfficientNetB6 256 external data | ??? | 0.900 | 0.9281 | ??? |
+| 108-melanoma-5fold-EfficientNetB6 256 2018 data | ??? | 0.905 | 0.9280 | ??? |
+| 109-melanoma-5fold-EfficientNetB6 256 2019 data | ??? | 000 | 000 | ??? |
+| 110-melanoma-5fold-EfficientNetB6 256 cutout aug | ??? | 0.912 | 0.9403 | ??? |
+| 111 | ??? | 000 | 000 | ??? |
+| 112 | ??? | 000 | 000 | ??? |
+| 113-melanoma-5fold-EfficientNetB6 256 light TTA | ??? | 0.905 | 0.9322 | ??? |
+| 114-melanoma-5fold-EfficientNetB6 256 external fold | ??? | 0.900 | 0.9353 | ??? |
