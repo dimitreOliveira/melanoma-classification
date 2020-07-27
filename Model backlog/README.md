@@ -118,9 +118,25 @@
 | 106-melanoma-5fold-EfficientNetB6 256 class weights v2 | ??? | 0.913 | 0.9321 | ??? |
 | 107-melanoma-5fold-EfficientNetB6 256 external data | ??? | 0.900 | 0.9281 | ??? |
 | 108-melanoma-5fold-EfficientNetB6 256 2018 data | ??? | 0.905 | 0.9280 | ??? |
-| 109-melanoma-5fold-EfficientNetB6 256 2019 data | ??? | 000 | 000 | ??? |
+| 109-melanoma-5fold-EfficientNetB6 256 2019 data | ??? | 0.898 | 000 | ??? |
 | 110-melanoma-5fold-EfficientNetB6 256 cutout aug | ??? | 0.912 | 0.9403 | ??? |
-| 111 | ??? | 000 | 000 | ??? |
-| 112 | ??? | 000 | 000 | ??? |
+| 111-melanoma-5fold-EfficientNetB6 256 2018 fold | ??? | 0.915 | 0.9206 | ??? |
+| 112-melanoma-5fold-EfficientNetB6 256 2019 fold | ??? | 0.898 | 000 | ??? |
 | 113-melanoma-5fold-EfficientNetB6 256 light TTA | ??? | 0.905 | 0.9322 | ??? |
 | 114-melanoma-5fold-EfficientNetB6 256 external fold | ??? | 0.900 | 0.9353 | ??? |
+| 115-melanoma-5fold-EfficientNetB6 256 malig_2020 | ??? | 0.892 | 000 | ??? |
+| 116-melanoma-5fold-EfficientNetB6 256 malig_2020ne | ??? | 0.907 | 000 | ??? |
+| 117-melanoma-5fold-EfficientNetB6 256 malig_all | ??? | 0.916 | 0.9227 | ??? |
+
+
+
+### XGBM
+
+| Model | Train | Validation | Public LB | Private LB |
+|-------|-------|------------|-----------|------------|
+| 1-melanoma-5fold-XGBM baseline | 0.646091 | 0.656711 | ??? | ??? |
+| 2-melanoma-5fold-XGBM mean | 0.642615 | 0.652225 | ??? | ??? |
+| 3-melanoma-5fold-XGBM label encoding | 0.661438 | 0.669618 | ??? | ??? |
+| 4-melanoma-5fold-XGBM image features | 0.778892 | 0.800004 | ??? | ??? |
+| 5-melanoma-5fold-XGBM image features v2 | 0.745335 | 0.762053 | ??? | ??? |
+| 6-melanoma-5fold-XGBM combined fts | 0.784281 | 0.798628 | ??? | ??? |
