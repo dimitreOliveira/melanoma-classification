@@ -127,6 +127,9 @@
 | 115-melanoma-5fold-EfficientNetB6 256 malig_2020 | ??? | 0.892 | 000 | ??? |
 | 116-melanoma-5fold-EfficientNetB6 256 malig_2020ne | ??? | 0.907 | 000 | ??? |
 | 117-melanoma-5fold-EfficientNetB6 256 malig_all | ??? | 0.916 | 0.9227 | ??? |
+| 118-melanoma-5fold-EfficientNetB6 256 2018 malig | ??? | 0.909 | 0.9374 | ??? |
+| 119 | ??? | 000 | 000 | ??? |
+| 120-melanoma-5fold-EfficientNetB4 256 2018 weighted | ??? | 0.909 | 0.9416 | ??? |
 
 
 
