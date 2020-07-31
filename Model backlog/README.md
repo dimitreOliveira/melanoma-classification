@@ -128,12 +128,16 @@
 | 116-melanoma-5fold-EfficientNetB6 256 malig_2020ne | ??? | 0.907 | 000 | ??? |
 | 117-melanoma-5fold-EfficientNetB6 256 malig_all | ??? | 0.916 | 0.9227 | ??? |
 | 118-melanoma-5fold-EfficientNetB6 256 2018 malig | ??? | 0.909 | 0.9374 | ??? |
-| 119 | ??? | 000 | 000 | ??? |
+| 119-melanoma-5fold-EfficientNetB4 oversamp cosine WR | ??? | 0.926 | 0.9485 | ??? |
 | 120-melanoma-5fold-EfficientNetB4 256 2018 weighted | ??? | 0.909 | 0.9416 | ??? |
 | 121-melanoma-5fold-EfficientNetB4 256 weighted | ??? | 0.918 | 0.9324 | ??? |
 | 122-melanoma-5fold-EfficientNetB4 384 weighted | ??? | 0.911 | 0.9246 | ??? |
 | 123-melanoma-5fold-EfficientNetB4 256 2020x2 | ??? | 0.910 | 0.9297 | ??? |
 | 124-melanoma-5fold-EfficientNetB4 256 2020x3 | ??? | 0.905 | 0.9329 | ??? |
+| 125-melanoma-5fold-EfficientNetB4 256 oversampling | ??? | 0.910 | 0.9469 | ??? |
+| 126-melanoma-5fold-EfficientNetB4 256 oversamp+aug | ??? | 0.921 | 0.9432 | ??? |
+| 127-melanoma-5fold-EfficientNetB4 3x_ds oversamp | ??? | 0.918 | 0.9419 | ??? |
+| 128-melanoma-5fold-EfficientNetB4 oversamp cosineW | ??? | 0.925 | 0.9409 | ??? |
 
 
 
