@@ -138,6 +138,8 @@
 | 126-melanoma-5fold-EfficientNetB4 256 oversamp+aug | ??? | 0.921 | 0.9432 | ??? |
 | 127-melanoma-5fold-EfficientNetB4 3x_ds oversamp | ??? | 0.918 | 0.9419 | ??? |
 | 128-melanoma-5fold-EfficientNetB4 oversamp cosineW | ??? | 0.925 | 0.9409 | ??? |
+| 129-melanoma-5fold-EfficientNetB4 bs_16 384 | ??? | 0.934 | 0.9495 | ??? |
+| 130-melanoma-5fold-EfficientNetB4 bs_16 | ??? | 0.927 | 0.9391 | ??? |
 
 
 
