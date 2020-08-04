@@ -146,6 +146,7 @@
 | 134-melanoma-5fold-EfficientNetB4 bs_16 512 | ??? | 0.934 | 0.9569 | ??? |
 | 135 | ??? | 000 | 000 | ??? |
 | 136-melanoma-5fold-EfficientNetB5 512 | ??? | 0.937 | 0.9470 | ??? |
+| 137-melanoma-5fold-EfficientNetB4 512 | ??? | 0.935 | 0.9473 | ??? |
 
 
 
@@ -159,3 +160,5 @@
 | 4-melanoma-5fold-XGBM image features | 0.778892 | 0.800004 | ??? | ??? |
 | 5-melanoma-5fold-XGBM image features v2 | 0.745335 | 0.762053 | ??? | ??? |
 | 6-melanoma-5fold-XGBM combined fts | 0.784281 | 0.798628 | ??? | ??? |
+| 7-melanoma-5fold-XGBM no_anotom | 0.782082 | 0.798661 | ??? | ??? |
+| 8-melanoma-5fold-XGBM no_mean color | 0.746723 | 0.754998 | ??? | ??? |
