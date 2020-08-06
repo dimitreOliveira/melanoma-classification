@@ -144,12 +144,13 @@
 | 132-melanoma-5fold-EfficientNetB4 512 | ??? | 0.936 | 0.9503 | ??? |
 | 133-melanoma-5fold-EfficientNetB4 384 oversamp_05 | ??? | 0.918 | 000 | ??? |
 | 134-melanoma-5fold-EfficientNetB4 bs_16 512 | ??? | 0.934 | 0.9569 | ??? |
-| 135-melanoma-5fold-EfficientNetB0 512 | ??? | 000 | 0.921 | ??? |
+| 135-melanoma-5fold-EfficientNetB0 512 | ??? | 0.921 | 000 | ??? |
 | 136-melanoma-5fold-EfficientNetB5 512 | ??? | 0.937 | 0.9470 | ??? |
 | 137-melanoma-5fold-EfficientNetB4 512 | ??? | 0.935 | 0.9473 | ??? |
-| 138 | ??? | 000 | 000 | ??? |
+| 138-melanoma-5fold-EfficientNetB4 ds sampling 512 | ??? | 0.922 | 0.9515 | ??? |
 | 139-melanoma-5fold-EfficientNetB4 512 | ??? | 0.940 | 0.9455 | ??? |
 | 140-melanoma-5fold-EfficientNetB4 one_cycle cosine 512 | ??? | 0.937 | 0.9477 | ??? |
+| 141-melanoma-5fold-EfficientNetB3 one_cycle cosine 256 | ??? | 0.913 | 000 | ??? |
 
 
 
@@ -165,3 +166,6 @@
 | 6-melanoma-5fold-XGBM combined fts | 0.784281 | 0.798628 | ??? | ??? |
 | 7-melanoma-5fold-XGBM no_anotom | 0.782082 | 0.798661 | ??? | ??? |
 | 8-melanoma-5fold-XGBM no_mean color | 0.746723 | 0.754998 | ??? | ??? |
+| 9-melanoma-5fold-XGBM random param search | 0.780412 | 0.847426 | ??? | ??? |
+| 10-melanoma-5fold-XGBM basic features | 0.679200 | 0.680989 | ??? | ??? |
+| 11-melanoma-5fold-XGBM basic fts external data | 0.650260 | 0.683909 | ??? | ??? |
