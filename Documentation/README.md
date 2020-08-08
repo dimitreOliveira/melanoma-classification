@@ -77,3 +77,15 @@
   
 - ### Negative Insights
   - Most of the values for the `diagnosis` feature is `unknown` it may leave this features useless.
+  
+- Datasets distribution
+  - Positive dist (datasets):
+    - Data: Pos | Neg
+    - 2020: 584 | 32108
+    - 2018: 1627 | 11232
+    - 2019: 2858 | 9555
+  - Positive dist (upsampled):
+    - 2020: 581
+    - New: 580
+    - 2018: 1614
+    - 2019: 1185
