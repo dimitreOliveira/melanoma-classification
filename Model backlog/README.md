@@ -154,6 +154,12 @@
 | 142-melanoma-5fold-EfficientNetB3 one_cycle dropout 256 | ??? | 0.926 | 0.9397 | ??? |
 | 143-melanoma-5fold-EfficientNetB3 focal loss 256 | ??? | 0.925 | 0.9371 | ??? |
 | 144-melanoma-5fold-EfficientNetB3 focal reg samp 256 | ??? | 0.922 | 000 | ??? |
+| 145-melanoma-5fold-EfficientNetB3 one_cycle dropout 384 | ??? | 0.931 | 0.9437 | ??? |
+| 146-melanoma-5fold-EfficientNetB3 one_cycle 512 | ??? | 0.931 | 0.9483 | ??? |
+| 147-melanoma-5fold-EfficientNetB1 one_cycle 512 | ??? | 0.930 | 000 | ??? |
+| 148-melanoma-5fold-EfficientNetB3 one_cycle 384 | ??? | 0.927 | 000 | ??? |
+| 149-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.928 | 000 | ??? |
+| 150-melanoma-5fold-EfficientNetB3 one_cycle dropout 512 | ??? | 0.933 | 0.9448 | ??? |
 
 
 
