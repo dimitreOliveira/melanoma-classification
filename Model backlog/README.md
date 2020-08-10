@@ -140,7 +140,7 @@
 | 128-melanoma-5fold-EfficientNetB4 oversamp cosineW | ??? | 0.925 | 0.9409 | ??? |
 | 129-melanoma-5fold-EfficientNetB4 bs_16 384 | ??? | 0.934 | 0.9495 | ??? |
 | 130-melanoma-5fold-EfficientNetB4 bs_16 | ??? | 0.927 | 0.9391 | ??? |
-| 131-melanoma-5fold-EfficientNetB4 bs_16 384 | ??? | 0.930 | 0.9493 | ??? |
+| 131-melanoma-5fold-EfficientNetB4 bs_16 384 | ??? | 0.930 | 0.9508 | ??? |
 | 132-melanoma-5fold-EfficientNetB4 512 | ??? | 0.936 | 0.9503 | ??? |
 | 133-melanoma-5fold-EfficientNetB4 384 oversamp_05 | ??? | 0.918 | 000 | ??? |
 | 134-melanoma-5fold-EfficientNetB4 bs_16 512 | ??? | 0.934 | 0.9569 | ??? |
@@ -156,9 +156,9 @@
 | 144-melanoma-5fold-EfficientNetB3 focal reg samp 256 | ??? | 0.922 | 000 | ??? |
 | 145-melanoma-5fold-EfficientNetB3 one_cycle dropout 384 | ??? | 0.931 | 0.9437 | ??? |
 | 146-melanoma-5fold-EfficientNetB3 one_cycle 512 | ??? | 0.931 | 0.9483 | ??? |
-| 147-melanoma-5fold-EfficientNetB1 one_cycle 512 | ??? | 0.930 | 000 | ??? |
+| 147-melanoma-5fold-EfficientNetB1 one_cycle 512 | ??? | 0.930 | 0.9512 | ??? |
 | 148-melanoma-5fold-EfficientNetB3 one_cycle 384 | ??? | 0.927 | 000 | ??? |
-| 149-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.928 | 000 | ??? |
+| 149-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.928 | 0.9498 | ??? |
 | 150-melanoma-5fold-EfficientNetB3 one_cycle dropout 512 | ??? | 0.933 | 0.9448 | ??? |
 
 
