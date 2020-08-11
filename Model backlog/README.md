@@ -160,6 +160,11 @@
 | 148-melanoma-5fold-EfficientNetB3 one_cycle 384 | ??? | 0.927 | 000 | ??? |
 | 149-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.928 | 0.9498 | ??? |
 | 150-melanoma-5fold-EfficientNetB3 one_cycle dropout 512 | ??? | 0.933 | 0.9448 | ??? |
+| 151-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.930 | 0.9507 | ??? |
+| 152 | ??? | 000 | 000 | ??? |
+| 153-melanoma-5fold-EfficientNetB3 meta fts 512 | ??? | 0.929 | 0.9507 | ??? |
+| 154 | ??? | 000 | 000 | ??? |
+| 155 | ??? | 000 | 000 | ??? |
 
 
 
