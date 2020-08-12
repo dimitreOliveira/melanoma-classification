@@ -10,6 +10,8 @@
 - [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/#2-set-up-the-end-to-end-trainingevaluation-skeleton--get-dumb-baselines)
 - [Big Transfer Tensorflow Hub](https://tfhub.dev/google/collections/bit/1)
 - [BigTransfer (BiT): State-of-the-art transfer learning for computer vision](https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html)
+- [Image classification via fine-tuning with EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/)
+- [Transfer learning & fine-tuning](https://keras.io/guides/transfer_learning/)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
