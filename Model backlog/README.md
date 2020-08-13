@@ -161,10 +161,11 @@
 | 149-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.928 | 0.9498 | ??? |
 | 150-melanoma-5fold-EfficientNetB3 one_cycle dropout 512 | ??? | 0.933 | 0.9448 | ??? |
 | 151-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.930 | 0.9507 | ??? |
-| 152 | ??? | 000 | 000 | ??? |
+| 152-melanoma-5fold-EfficientNetB4 cosine_WR 512 | ??? | 0.933 | 0.9471 | ??? |
 | 153-melanoma-5fold-EfficientNetB3 meta fts 512 | ??? | 0.929 | 0.9507 | ??? |
-| 154 | ??? | 000 | 000 | ??? |
-| 155 | ??? | 000 | 000 | ??? |
+| 154-melanoma-5fold-EfficientNetB0 224 | ??? | 0.884 | 000 | ??? |
+| 155-melanoma-5fold-EfficientNetB0 meta fts 224 | ??? | 0.890 | 000 | ??? |
+| 156-melanoma-5fold-EfficientNetB4 2019_data 512 | ??? | 0.931 | 0.9486 | ??? |
 
 
 
@@ -187,6 +188,6 @@
 | 13-melanoma-5fold-XGBM basic features | 000 | 0.660 | ??? | ??? |
 | 14-melanoma-5fold-XGBM random param search | 000 | 0.773 | ??? | ??? |
 | 15-melanoma-5fold-XGBM basic features v2 | 000 | 0.681 | ??? | ??? |
-| 16-melanoma-5fold-XGBM basic features v3 | 000 | 0.681 | ??? | ??? |
-| 17-melanoma-5fold-XGBM basic fts external data v2 | 000 | 0.665 | ??? | ??? |
-| 18-melanoma-5fold-XGBM random param search v2 | 000 | 0.783 | ??? | ??? |
+| 16-melanoma-5fold-XGBM basic features v3 | 000 | 0.681 | 0.6735 | ??? |
+| 17-melanoma-5fold-XGBM basic fts external data v2 | 000 | 0.665 | 0.6840 | ??? |
+| 18-melanoma-5fold-XGBM random param search v2 | 000 | 0.783 | 0.7423 | ??? |
