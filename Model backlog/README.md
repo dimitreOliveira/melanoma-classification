@@ -166,6 +166,7 @@
 | 154-melanoma-5fold-EfficientNetB0 224 | ??? | 0.884 | 000 | ??? |
 | 155-melanoma-5fold-EfficientNetB0 meta fts 224 | ??? | 0.890 | 000 | ??? |
 | 156-melanoma-5fold-EfficientNetB4 2019_data 512 | ??? | 0.931 | 0.9486 | ??? |
+| 157-melanoma-5fold-EfficientNetB4 ds_sampling 512 | ??? | 0.938 | 0.9486 | ??? |
 
 
 
@@ -191,3 +192,5 @@
 | 16-melanoma-5fold-XGBM basic features v3 | 000 | 0.681 | 0.6735 | ??? |
 | 17-melanoma-5fold-XGBM basic fts external data v2 | 000 | 0.665 | 0.6840 | ??? |
 | 18-melanoma-5fold-XGBM random param search v2 | 000 | 0.783 | 0.7423 | ??? |
+| 19-melanoma-stats fts external | 000 | 0.676 | 0.6910 | ??? |
+| 20-melanoma-stats fts | 000 | 0.696 | 0.6722 | ??? |
