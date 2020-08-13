@@ -40,6 +40,7 @@
 - [Rotation Augmentation GPU/TPU - [0.96+]](https://www.kaggle.com/cdeotte/rotation-augmentation-gpu-tpu-0-96)
 - [Incredible TPUs - finetune EffNetB0-B6 at once](https://www.kaggle.com/agentauers/incredible-tpus-finetune-effnetb0-b6-at-once)
 - [Don't turn into a Smoothie after the Shake-Up](https://www.kaggle.com/allunia/don-t-turn-into-a-smoothie-after-the-shake-up/notebook)
+- [batch implementation of more data augmentations](https://www.kaggle.com/yihdarshieh/batch-implementation-of-more-data-augmentations/notebook)
 
 ## Discussions:
 - [TFRecords 768x768, 512x512, 384x384 With Meta Data](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/155579)
