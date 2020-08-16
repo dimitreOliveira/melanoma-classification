@@ -12,6 +12,7 @@
 - [BigTransfer (BiT): State-of-the-art transfer learning for computer vision](https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html)
 - [Image classification via fine-tuning with EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/)
 - [Transfer learning & fine-tuning](https://keras.io/guides/transfer_learning/)
+- [Comparatison of Cutout, Mixup, CutMix and AugMix](https://app.wandb.ai/authors/tfaugmentation/reports/Draft--VmlldzoxNDA2NTc)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
