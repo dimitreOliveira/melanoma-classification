@@ -169,7 +169,7 @@
 | 157-melanoma-5fold-EfficientNetB4 ds_sampling 512 | ??? | 0.938 | 0.9486 | ??? |
 | 159-melanoma-5fold-EfficientNetB4 2019 380 | ??? | 0.931 | 0.9499 | ??? |
 | 160-melanoma-5fold-EfficientNetB4 380 | ??? | 0.932 | 000 | ??? |
-| 161 | ??? | 000 | 000 | ??? |
+| 161-melanoma-5fold-EfficientNetB5 MixUp no_cut 456 | ??? | 0.935 | 000 | ??? |
 | 162-melanoma-5fold-EfficientNetB0 SGD bs_128 224 | ??? | 0.874 | 000 | ??? |
 | 163-melanoma-5fold-EfficientNetB4 380 | ??? | 0.931 | 000 | ??? |
 | 164-melanoma-5fold-EfficientNetB4 MixUp 380 | ??? | 0.930 | 000 | ??? |
@@ -178,6 +178,10 @@
 | 167-melanoma-5fold-EfficientNetB3 300 | ??? | 0.926 | 000 | ??? |
 | 168-melanoma-5fold-EfficientNetB4 456 | ??? | 0.929 | 000 | ??? |
 | 169-melanoma-5fold-EfficientNetB4 MixUp no_cut 380 | ??? | 0.935 | 000 | ??? |
+| 170 | ??? | 000 | 000 | ??? |
+| 171-melanoma-5fold-EfficientNetB0 Warm cutout 224 | ??? | 0.891 | 000 | ??? |
+| 172 | ??? | 000 | 000 | ??? |
+| 173 | ??? | 000 | 000 | ??? |
 
 
 
