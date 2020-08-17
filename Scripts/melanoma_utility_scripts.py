@@ -1,9 +1,10 @@
-import os, random, re
+import os, random, re, math
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import tensorflow.keras.backend as K
 from sklearn.metrics import confusion_matrix, roc_auc_score, classification_report, roc_curve, auc
 
     
@@ -206,24 +207,23 @@ def plot_auc_curve(y_train, train_pred, y_valid, valid_pred):
     
 # Datasets utility functions
 LABELED_TFREC_FORMAT = {
-    "image": tf.io.FixedLenFeature([], tf.string), # tf.string means bytestring
-    "target": tf.io.FixedLenFeature([], tf.int64), # shape [] means single element
-    "image_name": tf.io.FixedLenFeature([], tf.string),
+    "image":                         tf.io.FixedLenFeature([], tf.string),
+    "target":                        tf.io.FixedLenFeature([], tf.int64),
+    "image_name":                    tf.io.FixedLenFeature([], tf.string),
     # meta features
-    "patient_id": tf.io.FixedLenFeature([], tf.int64),
-    "sex": tf.io.FixedLenFeature([], tf.int64),
-    "age_approx": tf.io.FixedLenFeature([], tf.int64),
+    "patient_id":                    tf.io.FixedLenFeature([], tf.int64),
+    "sex":                           tf.io.FixedLenFeature([], tf.int64),
+    "age_approx":                    tf.io.FixedLenFeature([], tf.int64),
     "anatom_site_general_challenge": tf.io.FixedLenFeature([], tf.int64),
-    "diagnosis": tf.io.FixedLenFeature([], tf.int64)
 }
 
 UNLABELED_TFREC_FORMAT = {
-    "image": tf.io.FixedLenFeature([], tf.string), # tf.string means bytestring
-    "image_name": tf.io.FixedLenFeature([], tf.string), # shape [] means single element
+    "image":                         tf.io.FixedLenFeature([], tf.string),
+    "image_name":                    tf.io.FixedLenFeature([], tf.string),
     # meta features
-    "patient_id": tf.io.FixedLenFeature([], tf.int64),
-    "sex": tf.io.FixedLenFeature([], tf.int64),
-    "age_approx": tf.io.FixedLenFeature([], tf.int64),
+    "patient_id":                    tf.io.FixedLenFeature([], tf.int64),
+    "sex":                           tf.io.FixedLenFeature([], tf.int64),
+    "age_approx":                    tf.io.FixedLenFeature([], tf.int64),
     "anatom_site_general_challenge": tf.io.FixedLenFeature([], tf.int64),
 }
 
@@ -236,3 +236,201 @@ def decode_image(image_data, height, width, channels):
 def count_data_items(filenames):
     n = [int(re.compile(r"-([0-9]*)\.").search(filename).group(1)) for filename in filenames]
     return np.sum(n)
+
+
+# Advanced augmentations
+def transform_rotation(image, height, rotation):
+    # input image - is one image of size [dim,dim,3] not a batch of [b,dim,dim,3]
+    # output - image randomly rotated
+    DIM = height
+    XDIM = DIM%2 #fix for size 331
+    
+    rotation = rotation * tf.random.uniform([1],dtype='float32')
+    # CONVERT DEGREES TO RADIANS
+    rotation = math.pi * rotation / 180.
+    
+    # ROTATION MATRIX
+    c1 = tf.math.cos(rotation)
+    s1 = tf.math.sin(rotation)
+    one = tf.constant([1],dtype='float32')
+    zero = tf.constant([0],dtype='float32')
+    rotation_matrix = tf.reshape(tf.concat([c1,s1,zero, -s1,c1,zero, zero,zero,one],axis=0),[3,3])
+
+    # LIST DESTINATION PIXEL INDICES
+    x = tf.repeat( tf.range(DIM//2,-DIM//2,-1), DIM )
+    y = tf.tile( tf.range(-DIM//2,DIM//2),[DIM] )
+    z = tf.ones([DIM*DIM],dtype='int32')
+    idx = tf.stack( [x,y,z] )
+    
+    # ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+    idx2 = K.dot(rotation_matrix,tf.cast(idx,dtype='float32'))
+    idx2 = K.cast(idx2,dtype='int32')
+    idx2 = K.clip(idx2,-DIM//2+XDIM+1,DIM//2)
+    
+    # FIND ORIGIN PIXEL VALUES 
+    idx3 = tf.stack( [DIM//2-idx2[0,], DIM//2-1+idx2[1,]] )
+    d = tf.gather_nd(image, tf.transpose(idx3))
+        
+    return tf.reshape(d,[DIM,DIM,3])
+
+def transform_shear(image, height, shear):
+    # input image - is one image of size [dim,dim,3] not a batch of [b,dim,dim,3]
+    # output - image randomly sheared
+    DIM = height
+    XDIM = DIM%2 #fix for size 331
+    
+    shear = shear * tf.random.uniform([1],dtype='float32')
+    shear = math.pi * shear / 180.
+        
+    # SHEAR MATRIX
+    one = tf.constant([1],dtype='float32')
+    zero = tf.constant([0],dtype='float32')
+    c2 = tf.math.cos(shear)
+    s2 = tf.math.sin(shear)
+    shear_matrix = tf.reshape(tf.concat([one,s2,zero, zero,c2,zero, zero,zero,one],axis=0),[3,3])    
+
+    # LIST DESTINATION PIXEL INDICES
+    x = tf.repeat( tf.range(DIM//2,-DIM//2,-1), DIM )
+    y = tf.tile( tf.range(-DIM//2,DIM//2),[DIM] )
+    z = tf.ones([DIM*DIM],dtype='int32')
+    idx = tf.stack( [x,y,z] )
+    
+    # ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+    idx2 = K.dot(shear_matrix,tf.cast(idx,dtype='float32'))
+    idx2 = K.cast(idx2,dtype='int32')
+    idx2 = K.clip(idx2,-DIM//2+XDIM+1,DIM//2)
+    
+    # FIND ORIGIN PIXEL VALUES 
+    idx3 = tf.stack( [DIM//2-idx2[0,], DIM//2-1+idx2[1,]] )
+    d = tf.gather_nd(image, tf.transpose(idx3))
+        
+    return tf.reshape(d,[DIM,DIM,3])
+
+def transform_shift(image, height, h_shift, w_shift):
+    # input image - is one image of size [dim,dim,3] not a batch of [b,dim,dim,3]
+    # output - image randomly shifted
+    DIM = height
+    XDIM = DIM%2 #fix for size 331
+    
+    height_shift = h_shift * tf.random.uniform([1],dtype='float32') 
+    width_shift = w_shift * tf.random.uniform([1],dtype='float32') 
+    one = tf.constant([1],dtype='float32')
+    zero = tf.constant([0],dtype='float32')
+        
+    # SHIFT MATRIX
+    shift_matrix = tf.reshape(tf.concat([one,zero,height_shift, zero,one,width_shift, zero,zero,one],axis=0),[3,3])
+
+    # LIST DESTINATION PIXEL INDICES
+    x = tf.repeat( tf.range(DIM//2,-DIM//2,-1), DIM )
+    y = tf.tile( tf.range(-DIM//2,DIM//2),[DIM] )
+    z = tf.ones([DIM*DIM],dtype='int32')
+    idx = tf.stack( [x,y,z] )
+    
+    # ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+    idx2 = K.dot(shift_matrix,tf.cast(idx,dtype='float32'))
+    idx2 = K.cast(idx2,dtype='int32')
+    idx2 = K.clip(idx2,-DIM//2+XDIM+1,DIM//2)
+    
+    # FIND ORIGIN PIXEL VALUES 
+    idx3 = tf.stack( [DIM//2-idx2[0,], DIM//2-1+idx2[1,]] )
+    d = tf.gather_nd(image, tf.transpose(idx3))
+        
+    return tf.reshape(d,[DIM,DIM,3])
+
+def random_cutout(image, height, width, channels=3, min_mask_size=(10, 10), max_mask_size=(80, 80), k=1):
+    assert height > min_mask_size[0]
+    assert width > min_mask_size[1]
+    assert height > max_mask_size[0]
+    assert width > max_mask_size[1]
+
+    for i in range(k):
+      mask_height = tf.random.uniform(shape=[], minval=min_mask_size[0], maxval=max_mask_size[0], dtype=tf.int32)
+      mask_width = tf.random.uniform(shape=[], minval=min_mask_size[1], maxval=max_mask_size[1], dtype=tf.int32)
+
+      pad_h = height - mask_height
+      pad_top = tf.random.uniform(shape=[], minval=0, maxval=pad_h, dtype=tf.int32)
+      pad_bottom = pad_h - pad_top
+
+      pad_w = width - mask_width
+      pad_left = tf.random.uniform(shape=[], minval=0, maxval=pad_w, dtype=tf.int32)
+      pad_right = pad_w - pad_left
+
+      cutout_area = tf.zeros(shape=[mask_height, mask_width, channels], dtype=tf.uint8)
+
+      cutout_mask = tf.pad([cutout_area], [[0,0],[pad_top, pad_bottom], [pad_left, pad_right], [0,0]], constant_values=1)
+      cutout_mask = tf.squeeze(cutout_mask, axis=0)
+      image = tf.multiply(tf.cast(image, tf.float32), tf.cast(cutout_mask, tf.float32))
+
+    return image
+
+
+def get_mat(rotation, shear, height_zoom, width_zoom, height_shift, width_shift):
+    # returns 3x3 transformmatrix which transforms indicies
+        
+    # CONVERT DEGREES TO RADIANS
+    rotation = math.pi * rotation / 180.
+    shear    = math.pi * shear    / 180.
+
+    def get_3x3_mat(lst):
+        return tf.reshape(tf.concat([lst],axis=0), [3,3])
+    
+    # ROTATION MATRIX
+    c1   = tf.math.cos(rotation)
+    s1   = tf.math.sin(rotation)
+    one  = tf.constant([1],dtype='float32')
+    zero = tf.constant([0],dtype='float32')
+    
+    rotation_matrix = get_3x3_mat([c1,   s1,   zero, 
+                                   -s1,  c1,   zero, 
+                                   zero, zero, one])    
+    # SHEAR MATRIX
+    c2 = tf.math.cos(shear)
+    s2 = tf.math.sin(shear)    
+    
+    shear_matrix = get_3x3_mat([one,  s2,   zero, 
+                                zero, c2,   zero, 
+                                zero, zero, one])        
+    # ZOOM MATRIX
+    zoom_matrix = get_3x3_mat([one/height_zoom, zero,           zero, 
+                               zero,            one/width_zoom, zero, 
+                               zero,            zero,           one])    
+    # SHIFT MATRIX
+    shift_matrix = get_3x3_mat([one,  zero, height_shift, 
+                                zero, one,  width_shift, 
+                                zero, zero, one])
+    
+    return K.dot(K.dot(rotation_matrix, shear_matrix), 
+                 K.dot(zoom_matrix,     shift_matrix))
+
+
+def transform(image, DIM=256):    
+    # input image - is one image of size [dim,dim,3] not a batch of [b,dim,dim,3]
+    # output - image randomly rotated, sheared, zoomed, and shifted
+    XDIM = DIM%2 #fix for size 331
+    
+    rot = ROT_ * tf.random.normal([1], dtype='float32')
+    shr = SHR_ * tf.random.normal([1], dtype='float32') 
+    h_zoom = 1.0 + tf.random.normal([1], dtype='float32') / HZOOM_
+    w_zoom = 1.0 + tf.random.normal([1], dtype='float32') / WZOOM_
+    h_shift = HSHIFT_ * tf.random.normal([1], dtype='float32') 
+    w_shift = WSHIFT_ * tf.random.normal([1], dtype='float32') 
+
+    # GET TRANSFORMATION MATRIX
+    m = get_mat(rot,shr,h_zoom,w_zoom,h_shift,w_shift) 
+
+    # LIST DESTINATION PIXEL INDICES
+    x   = tf.repeat(tf.range(DIM//2, -DIM//2,-1), DIM)
+    y   = tf.tile(tf.range(-DIM//2, DIM//2), [DIM])
+    z   = tf.ones([DIM*DIM], dtype='int32')
+    idx = tf.stack( [x,y,z] )
+    
+    # ROTATE DESTINATION PIXELS ONTO ORIGIN PIXELS
+    idx2 = K.dot(m, tf.cast(idx, dtype='float32'))
+    idx2 = K.cast(idx2, dtype='int32')
+    idx2 = K.clip(idx2, -DIM//2+XDIM+1, DIM//2)
+    
+    # FIND ORIGIN PIXEL VALUES           
+    idx3 = tf.stack([DIM//2-idx2[0,], DIM//2-1+idx2[1,]])
+    d    = tf.gather_nd(image, tf.transpose(idx3))
+        
+    return tf.reshape(d,[DIM, DIM,3])

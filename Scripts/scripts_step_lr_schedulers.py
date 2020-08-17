@@ -130,6 +130,20 @@ def one_cycle_schedule_inv(step, total_steps, warmup_steps=None, hold_min_steps=
 
     return m
 
+@tf.function
+def step_schedule_with_warmup(step, step_size, warmup_steps=0, hold_max_steps=0, lr_start=1e-4, lr_max=1e-3, step_decay=.5):
+    """ Create a schedule with a step decrease preceded by a warmup
+        period during which the learning rate increases linearly between {lr_start} and {lr_max}.
+    """
+
+    if step < warmup_steps:
+        lr = (lr_max - lr_start) / warmup_steps * step + lr_start
+    elif step < warmup_steps + hold_max_steps:
+        lr = lr_max
+    else:
+        lr = lr_max * step_decay**((step - warmup_steps - hold_max_steps)//step_size)
+    return lr
+
 
 #Usage example
 ### Exponential decay with warmup schedule
