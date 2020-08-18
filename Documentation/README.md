@@ -10,12 +10,17 @@
 - [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/#2-set-up-the-end-to-end-trainingevaluation-skeleton--get-dumb-baselines)
 - [Big Transfer Tensorflow Hub](https://tfhub.dev/google/collections/bit/1)
 - [BigTransfer (BiT): State-of-the-art transfer learning for computer vision](https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html)
+- [Open-Sourcing BiT: Exploring Large-Scale Pre-training for Computer Vision](https://ai.googleblog.com/2020/05/open-sourcing-bit-exploring-large-scale.html)
 - [Image classification via fine-tuning with EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/)
 - [Transfer learning & fine-tuning](https://keras.io/guides/transfer_learning/)
 - [Comparatison of Cutout, Mixup, CutMix and AugMix](https://app.wandb.ai/authors/tfaugmentation/reports/Draft--VmlldzoxNDA2NTc)
+- [ISIC 2019](https://challenge2019.isic-archive.com/)
+- [ISIC 2019 Leaderboards](https://challenge2019.isic-archive.com/leaderboard.html)
+- [Using Deep Learning to Inform Differential Diagnoses of Skin Diseases](https://ai.googleblog.com/2019/09/using-deep-learning-to-inform.html)
 
 ## GitHub:
 - [Classification models](https://github.com/qubvel/classification_models)
+- [EfficientNet Keras (and TensorFlow Keras)](https://github.com/qubvel/efficientnet)
 - [Tensorflow loss_layers](https://github.com/tensorflow/models/blob/master/research/global_objectives/loss_layers.py)
 - [keras-one-cycle](https://github.com/titu1994/keras-one-cycle)
 
@@ -25,6 +30,8 @@
 - [CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/pdf/1905.04899.pdf)
 - [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/pdf/1708.04552.pdf)
 - [Big Transfer (BiT):General Visual Representation Learning](https://arxiv.org/pdf/1912.11370.pdf)
+- [Dermatologist-level classification of skin cancer with deep neural networks](https://www.nature.com/articles/nature21056.epdf?author_access_token=8oxIcYWf5UNrNpHsUHd2StRgN0jAjWel9jnR3ZoTv0NXpMHRAJy8Qn10ys2O4tuPakXos4UhQAFZ750CsBNMMsISFHIKinKDMKjShCpHIlYPYUHhNzkn6pSnOCt0Ftf6)
+- [FOUR THINGS EVERYONE SHOULD KNOW TO IMPROVE BATCH NORMALIZATION](https://openreview.net/pdf?id=HJx8HANFDH)
 
 ## Videos:
 - [Deep Learning Podcast #2 | Edward Peake | Deep Learning in Medical Imaging](https://www.youtube.com/watch?v=Z-SePjfKAYM)
@@ -64,6 +71,7 @@
 - [Data t-sne plot](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/167551#932485)
 - [Data t-sne plot](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/168028)
 - [Data UMAP plot](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/168028#937000)
+- [Best Research Papers for Competition](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/161792)
 
 ## Datasets:
 - [Melanoma TFRecords 256x256](https://www.kaggle.com/cdeotte/melanoma-256x256)
