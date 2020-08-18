@@ -160,9 +160,9 @@
 | 148-melanoma-5fold-EfficientNetB3 one_cycle 384 | ??? | 0.927 | 000 | ??? |
 | 149-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.928 | 0.9498 | ??? |
 | 150-melanoma-5fold-EfficientNetB3 one_cycle dropout 512 | ??? | 0.933 | 0.9448 | ??? |
-| 151-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.930 | 0.9507 | ??? |
+| 151-melanoma-5fold-EfficientNetB3 meta fts 384 | ??? | 0.930 | 0.9507 | 0.9324 |
 | 152-melanoma-5fold-EfficientNetB4 cosine_WR 512 | ??? | 0.933 | 0.9471 | ??? |
-| 153-melanoma-5fold-EfficientNetB3 meta fts 512 | ??? | 0.929 | 0.9507 | ??? |
+| 153-melanoma-5fold-EfficientNetB3 meta fts 512 | ??? | 0.929 | 0.9507 | 0.9321 |
 | 154-melanoma-5fold-EfficientNetB0 224 | ??? | 0.884 | 000 | ??? |
 | 155-melanoma-5fold-EfficientNetB0 meta fts 224 | ??? | 0.890 | 000 | ??? |
 | 156-melanoma-5fold-EfficientNetB4 2019_data 512 | ??? | 0.931 | 0.9486 | ??? |
@@ -178,10 +178,7 @@
 | 167-melanoma-5fold-EfficientNetB3 300 | ??? | 0.926 | 000 | ??? |
 | 168-melanoma-5fold-EfficientNetB4 456 | ??? | 0.929 | 000 | ??? |
 | 169-melanoma-5fold-EfficientNetB4 MixUp no_cut 380 | ??? | 0.935 | 000 | ??? |
-| 170 | ??? | 000 | 000 | ??? |
 | 171-melanoma-5fold-EfficientNetB0 Warm cutout 224 | ??? | 0.891 | 000 | ??? |
-| 172 | ??? | 000 | 000 | ??? |
-| 173 | ??? | 000 | 000 | ??? |
 
 
 
