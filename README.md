@@ -1,13 +1,12 @@
 ![](https://github.com/dimitreOliveira/melanoma-classification/blob/master/Assets/banner.png)
 
-## About the repository
-{Competition abouts}
-
 ### Published Kaggle kernels:
 
 ### What you will find
-- Documentation [[link]]()
-- Models [[link]]()
+- Documentation [[link]](https://github.com/dimitreOliveira/melanoma-classification/tree/master/Documentation)
+- EDA [[link]](https://github.com/dimitreOliveira/melanoma-classification/tree/master/EDA)
+- Models [[link]](https://github.com/dimitreOliveira/melanoma-classification/tree/master/Model%20backlog)
+- Scripts [[link]](https://github.com/dimitreOliveira/melanoma-classification/tree/master/Scripts)
 
 ### SIIM-ISIC Melanoma Classification
 #### Identify melanoma in lesion images
