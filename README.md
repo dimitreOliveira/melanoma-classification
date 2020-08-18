@@ -1,6 +1,8 @@
 ![](https://github.com/dimitreOliveira/melanoma-classification/blob/master/Assets/banner.png)
 
 ### Published Kaggle kernels:
+- [Melanoma Classification - SHAP model explained](https://www.kaggle.com/dimitreoliveira/melanoma-classification-shap-model-explained)
+- [Melanoma Classification - Augmentations EDA](https://www.kaggle.com/dimitreoliveira/melanoma-classification-augmentations-eda)
 
 ### What you will find
 - Documentation [[link]](https://github.com/dimitreOliveira/melanoma-classification/tree/master/Documentation)
