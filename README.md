@@ -1,5 +1,7 @@
 ![](https://github.com/dimitreOliveira/melanoma-classification/blob/master/Assets/banner.png)
 
+#### I published an article about this competiton [check it out here](https://medium.com/@dimitreandrew/melanoma-classification-getting-a-medal-on-a-kaggle-competition-4e4ebf1a16b9?sk=e4a57ed70a80d1ca30461a83529e244c)!
+
 ### Published Kaggle kernels:
 - [Melanoma Classification - SHAP model explained](https://www.kaggle.com/dimitreoliveira/melanoma-classification-shap-model-explained)
 - [Melanoma Classification - Augmentations EDA](https://www.kaggle.com/dimitreoliveira/melanoma-classification-augmentations-eda)
